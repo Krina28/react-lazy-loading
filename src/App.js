@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
-import Routes from './routes';
+// import Routes from './routes';
+// import { ThemeContext } from './helpers/theme';
 
-function App() {
-  return (
-    <div className="App">
-      <Routes />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    // let theme = this.context;
+    return (
+      <div className="App">
+        <input type="number" />
+      </div>
+    );
+  }
 }
+
+// App.contextType = ThemeContext;
 
 export default App;

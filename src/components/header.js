@@ -20,6 +20,10 @@ function Header() {
                 <li>
                     <Link to="/contact">ContactUs</Link>
                 </li>
+                <li>
+                    <i className="material-icons sun-icon">wb_sunny</i>
+                    <i className="material-icons sun-icon">nights_stay</i>
+                </li>
             </ul>
         </nav>
     );
